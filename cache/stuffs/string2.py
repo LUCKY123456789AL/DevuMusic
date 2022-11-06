@@ -12,19 +12,19 @@ button1 = [
         InlineKeyboardButton(text="🌟𝐑𝐄𝐏𝐎✨", callback_data="repo_k"),
     ],                
     [                    
-        InlineKeyboardButton(text="Help & Commands!", callback_data="help_"),
+        InlineKeyboardButton(text="🙀𝐎𝐖𝐒𝐌 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒😻", callback_data="help_"),
     ],
 ]
 
 
 button2 = [
     [
-        InlineKeyboardButton(text="Basic!", callback_data="basic_"),
-        InlineKeyboardButton(text="Advance!", callback_data="admin_cmd"),
+        InlineKeyboardButton(text="🙊𝐁𝐀𝐒𝐈𝐂🙈", callback_data="basic_"),
+        InlineKeyboardButton(text="🍸𝐀𝐃𝐕𝐀𝐍𝐂𝐄🥂", callback_data="admin_cmd"),
     ],
     [
-        InlineKeyboardButton(text="Close", callback_data="close_"),
-        InlineKeyboardButton(text="Back", callback_data="HOME"),
+        InlineKeyboardButton(text="☀️𝐎𝐅𝐅☀️", callback_data="close_"),
+        InlineKeyboardButton(text="🔥𝐁𝐀𝐂𝐊🔥", callback_data="HOME"),
     ],
 ]
 
@@ -32,16 +32,16 @@ button2 = [
 
 button3 = [
     [
-        InlineKeyboardButton(text="Source", url="https://github.com/ItsmeHyper13/DevuMusic"),
-        InlineKeyboardButton(text="Back", callback_data="HOME"),
+        InlineKeyboardButton(text="🐿️𝐀𝐀 𝐉𝐀🐒", url="https://t.me/{SUPPORT_GROUP}"),
+        InlineKeyboardButton(text="🥱𝐁𝐀𝐂𝐊🥱", callback_data="HOME"),
     ],
 ]
 
 
 button4 = [
     [
-        InlineKeyboardButton(text="Close", callback_data="close_"),
-        InlineKeyboardButton(text="Back", callback_data="help_"),
+        InlineKeyboardButton(text="💛𝐎𝐅𝐅💛", callback_data="close_"),
+        InlineKeyboardButton(text="💔𝐁𝐀𝐂𝐊💔", callback_data="help_"),
     ],
 ]
 
