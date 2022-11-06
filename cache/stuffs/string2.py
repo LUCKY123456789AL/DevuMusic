@@ -4,12 +4,12 @@ from config import (BOT_NAME, SUPPORT_GROUP, OWNER_USERNAME, BOT_USERNAME)
 
 button1 = [
     [
-        InlineKeyboardButton(text="Updates", url=f"https://t.me/SILENT_BOTS"),
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ💥", url=f"http://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="🥀𝐁𝐀𝐁𝐘✨", url=f"https://t.me/{SUPPORT_GROUP}"),
+        InlineKeyboardButton(text="🤎𝐊𝐈𝐃𝐍𝐀𝐏💚", url=f"http://t.me/{BOT_USERNAME}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Owner", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="Source✨", callback_data="repo_k"),
+        InlineKeyboardButton(text="🌷𝐏𝐀𝐏𝐀 𝐉𝐈🍁", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="🌟𝐑𝐄𝐏𝐎✨", callback_data="repo_k"),
     ],                
     [                    
         InlineKeyboardButton(text="Help & Commands!", callback_data="help_"),
