@@ -5,7 +5,7 @@ import os
 import requests
 import aiohttp
 import yt_dlp
-
+from config import BOT_USERNAME
 from pyrogram import filters, Client
 from youtube_search import YoutubeSearch
 
@@ -48,13 +48,13 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("ʏᴏ, ʏᴏᴜʀ sᴏɴɢ ɪᴢ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ғʀᴏᴍ ᴅᴇᴠᴜ sᴇʀᴠᴇʀ🥀🥀.")
+    m.edit("ʏᴏ, ʏᴏᴜʀ sᴏɴɢ ɪᴢ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ғʀᴏᴍ MY sᴇʀᴠᴇʀ🥀🥀.")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**ᴜᴘʟᴏᴀᴅᴇʀ🥀 :-  [ᴅᴇᴠᴜ-ʀᴏʙᴏᴛ🧚‍♀️](https://t.me/DEVU_ROBOT)**"
+        rep = f"**ᴜᴘʟᴏᴀᴅᴇʀ🥀 :-  [ᴅᴇᴠᴜ-ʀᴏʙᴏᴛ🧚‍♀️](https://t.me/{BOT_USERNAME})**"
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
