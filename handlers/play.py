@@ -18,6 +18,7 @@ from youtube_search import YoutubeSearch
 import converter
 from downloaders import youtube
 from config import DURATION_LIMIT
+from config import (BOT_NAME, SUPPORT_GROUP, OWNER_USERNAME, BOT_USERNAME,BOT_IMG)
 from helpers.filters import command
 from helpers.decorators import errors
 from helpers.errors import DurationLimitError
@@ -165,7 +166,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/9350788513346feef5087.jpg"
+        thumb_name = "https://te.legra.ph/file/bbf86b2be7c2f9ddca283.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -174,11 +175,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🥀",
-                            url=f"https://t.me/SILENT_DEVS"),
+                            text="🤤𝐌𝐄𝐊𝐎 𝐌𝐔𝐉𝐇𝐒𝐄 𝐂𝐇𝐔𝐑𝐀 𝐋𝐎🤤",
+                            url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                ],
+                [
                     InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/SILENT_BOTS"),
+                            text="🥀𝐌𝐞𝐫𝐢 𝐉𝐚𝐚𝐧🥀",
+                            url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton(
+                            text="🦋𝐏𝐚𝐩𝐚 𝐉𝐢🦋",
+                            url=f"https://t.me/{OWNER_USERNAME}"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
@@ -218,14 +224,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🥀",
-                            url=f"https://t.me/SILENT_DEVS"),
+                            text="🤤𝐌𝐄𝐊𝐎 𝐌𝐔𝐉𝐇𝐒𝐄 𝐂𝐇𝐔𝐑𝐀 𝐋𝐎🤤",
+                            url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                ],
+                [
                     InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/SILENT_BOTS"),
-               ],
-               [
-                   InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
+                            text="🥀𝐌𝐞𝐫𝐢 𝐉𝐚𝐚𝐧🥀",
+                            url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton(
+                            text="🦋𝐏𝐚𝐩𝐚 𝐉𝐢🦋",
+                            url=f"https://t.me/{OWNER_USERNAME}"),
                ],
             ]
         )
@@ -239,11 +247,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🥀",
-                            url=f"https://t.me/SILENT_DEVS"),
+                            text="🤤𝐌𝐄𝐊𝐎 𝐌𝐔𝐉𝐇𝐒𝐄 𝐂𝐇𝐔𝐑𝐀 𝐋𝐎🤤",
+                            url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                ],
+                [
                     InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/SILENT_BOTS"),
+                            text="🥀𝐌𝐞𝐫𝐢 𝐉𝐚𝐚𝐧🥀",
+                            url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton(
+                            text="🦋𝐏𝐚𝐩𝐚 𝐉𝐢🦋",
+                            url=f"https://t.me/{OWNER_USERNAME}"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
@@ -298,11 +311,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🥀",
-                            url=f"https://t.me/SILENT_DEVS"),
+                            text="🤤𝐌𝐄𝐊𝐎 𝐌𝐔𝐉𝐇𝐒𝐄 𝐂𝐇𝐔𝐑𝐀 𝐋𝐎🤤",
+                            url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                ],
+                [
                     InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/SILENT_BOTS"),
+                            text="🥀𝐌𝐞𝐫𝐢 𝐉𝐚𝐚𝐧🥀",
+                            url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton(
+                            text="🦋𝐏𝐚𝐩𝐚 𝐉𝐢🦋",
+                            url=f"https://t.me/{OWNER_USERNAME}"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
