@@ -10,7 +10,7 @@
 <details><summary> <h3><b>Deployment!</b></h3> </summary>
 <pre>
 <b><i>••Deploy DevuMusic to Heroku••</i></b>
-<p><a href="https://heroku.com/deploy?template=https://github.com/KingXdOp/DevuMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/LUCKY123456789AL/DevuMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200""/></a></p>
 </pre>
 
 <pre>
